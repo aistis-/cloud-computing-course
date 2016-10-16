@@ -10,10 +10,16 @@
         "doctrine/dbal": "^2.5",
         "symfony/twig-bridge": "^3.1"
     },
+    "require-dev": {
+        "heroku/heroku-buildpack-php": "*"
+    },
     "scripts": {
         "run": [
             "echo 'Started web server on http://localhost:8888'",
             "php -S localhost:8888 -t web"
         ]
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }
