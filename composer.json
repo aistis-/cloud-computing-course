@@ -1,0 +1,19 @@
+{
+    "name": "aistis/cloud-computing-course",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-0": { "": "src/" }
+    },
+    "require": {
+        "silex/silex": "^2.0",
+        "doctrine/dbal": "^2.5",
+        "symfony/twig-bridge": "^3.1"
+    },
+    "scripts": {
+        "run": [
+            "echo 'Started web server on http://localhost:8888'",
+            "php -S localhost:8888 -t web"
+        ]
+    }
+}
